@@ -1,0 +1,5 @@
+<h1>{{header}}</h1>
+<h3 *ngIf="isLightOn === true">{{titleOn}}</h3>
+<img class="on" *ngIf="isLightOn === true" src="{{imageOnUrl}}" />
+<h3 *ngIf="isLightOn === false">{{titleOff}}</h3>
+<img class="off" *ngIf="isLightOn === false" src="{{imageOffUrl}}" />

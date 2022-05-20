@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&family=Grape+Nuts&display=swap');
+
+
+body {
+    background-color: cornsilk;
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Grape Nuts', cursive;
+}
+
+img {
+    position: absolute;
+    margin-right: auto;
+    margin-top: -15%;
+    width: 350px;
+}
+
+button {
+  font-family: 'Grape Nuts', cursive;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  margin-right: 55%;
+}
+
+h3{
+  position: relative;
+  text-align: left;
+  margin-left: 20%;
+  margin-top: 10%;
+}
